@@ -24,7 +24,7 @@ Text_Password allows one to create pronounceable and unpronounceable
 passwords. The full functional range is explained in the manual at
 http://pear.php.net/manual/.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Za pomoc± Text_Password mo¿liwe jest stworzenie daj±cych siê
