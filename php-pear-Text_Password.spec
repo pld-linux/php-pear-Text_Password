@@ -1,10 +1,11 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Text
-%define         _subclass       Password
+%define		_class		Text
+%define		_subclass	Password
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_pearname} - Creating passwords with PHP
-Summary(pl):	%{_pearname} - Tworzenie hase³
+
+Summary:	%{_pearname} - creating passwords with PHP
+Summary(pl):	%{_pearname} - tworzenie hase³
 Name:		php-pear-%{_pearname}
 Version:	1.0
 Release:	1
