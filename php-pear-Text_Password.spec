@@ -8,13 +8,14 @@ Summary:	%{_pearname} - creating passwords with PHP
 Summary(pl):	%{_pearname} - tworzenie hase³
 Name:		php-pear-%{_pearname}
 Version:	1.1.0
-Release:	1.1
+Release:	1.2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	eec0b6af667ac16e14af067951253c94
 URL:		http://pear.php.net/package/Text_Password/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+Requires:	php-common >= 3:4.2.0
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
