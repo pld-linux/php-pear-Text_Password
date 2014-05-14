@@ -1,14 +1,11 @@
-%include	/usr/lib/rpm/macros.php
-%define		_class		Text
-%define		_subclass	Password
 %define		_status		stable
-%define		_pearname	%{_class}_%{_subclass}
-
+%define		_pearname	Text_Password
+%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - creating passwords with PHP
 Summary(pl.UTF-8):	%{_pearname} - tworzenie haseł
 Name:		php-pear-%{_pearname}
 Version:	1.1.1
-Release:	2
+Release:	3
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
@@ -18,7 +15,7 @@ URL:		http://pear.php.net/package/Text_Password/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
-Requires:	php-common >= 3:4.2.0
+Requires:	php(core) >= 4.2.0
 Requires:	php-pear
 Obsoletes:	php-pear-Text_Password-tests
 BuildArch:	noarch
@@ -53,4 +50,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc install.log
 %{php_pear_dir}/.registry/*.reg
-%{php_pear_dir}/%{_class}/*.php
+%{php_pear_dir}/Text/*.php
