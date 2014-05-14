@@ -6,7 +6,6 @@ Summary(pl.UTF-8):	%{_pearname} - tworzenie haseł
 Name:		php-pear-%{_pearname}
 Version:	1.1.1
 Release:	3
-Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
