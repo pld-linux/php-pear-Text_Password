@@ -1,6 +1,5 @@
 %define		_status		stable
 %define		_pearname	Text_Password
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - creating passwords with PHP
 Summary(pl.UTF-8):	%{_pearname} - tworzenie haseł
 Name:		php-pear-%{_pearname}
